@@ -12,7 +12,9 @@
       "dest": "app.py"
     }
   ],
-  "env": {
-    "PYTHONPATH": "."
+  "functions": {
+    "api/**": {
+      "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
+    }
   }
 } 
